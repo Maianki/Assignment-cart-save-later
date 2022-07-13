@@ -1,0 +1,28 @@
+:root {
+  --PRIMARY-COLOR: #2874f0;
+  --WHITE-COLOR: #FFF
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+}
+
+.products-display {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  max-height: 50rem;
+}
+
+.badge-icon {
+  width: 20px;
+  height: 20px;
+  top: -15px;
+  left: -8px
+}

@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    min-width: 100vh;
+    height: 8rem;
+    background-color: var(--PRIMARY-COLOR);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12rem;
+    color: var(--WHITE-COLOR);
+}
+
+.logo {
+    font-family: italics;
+    font-size: 2rem;
+}
+
+.navbarItems {
+    list-style: none;
+    font-size: 1.2rem;
+}
+.cart {
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.paddingHorizontal {
+    padding: 0 6px;
+}
+.headingLink {
+    color: var(--WHITE-COLOR);
+}
+
+.cartLink {
+    color: var(--WHITE-COLOR);
+}
